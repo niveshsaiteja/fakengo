@@ -43,36 +43,10 @@
 .ul-nav1{
     align-items: right;
 }
-.cor-block-2{
-    background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_960_720.jpg");
-    background-size: cover;
-    width: 100vw;
-    height: 85vh;
-    padding-left: 16vw;
-    padding-top: 35vh;
-}
-.caption-cor{
-    padding: 3px;
-    border-radius: 20px;
-}
-.cor-block-1{
-    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
-    background-size: cover;
-    width: 100vw;
-    height: 85vh;
-    padding-left: 16vw;
-    padding-top: 35vh;
-  
-}
-.cor-block-3{
-    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg");
-    background-size: cover;
-    width: 100vw;
-    height: 85vh;
-    padding-left: 16vw;
-    padding-top: 35vh;
-    
-}
+
+
+
+
 
 .logo1{
     
@@ -86,34 +60,9 @@ nav ul li{
     display: inline-block;
     padding: 10px 20px;
 }
-.slide-corousel{
-    
-    font-weight: bold;
-    font-size: 60px;
-    color: white;
-    position: relative;
-    animation: text 2s 1;
 
-}
-.slide-para{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    animation: text 2s 1;
-   
-}
-.slide-donate{
-    background-color: #ea1538;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    border-width: 0px;
-    position: relative;
-    animation: text 2s 1;
-    
-}
+
+
 
 .ul-content1:hover{
     color: #ea1538;
@@ -147,9 +96,6 @@ nav ul li{
     }
 
     @media screen and (max-width : 768px) {
-        .d-none d-md-block cor-block-2{
-            display: none;
-        }
         .navs1{
             padding: 0;
         }
