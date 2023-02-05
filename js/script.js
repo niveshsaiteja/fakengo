@@ -1,7 +1,6 @@
-let menu =document.querySelector('#menu-icon');
-let navbar =document.querySelector('.navbar');
+const navhamburger = document.querySelector(".nav-hamburger")
+    const navHide = document.querySelector(".navhide")
 
-menu.onclick = () =>{
-    menu.classList.toggle('bx-x');
-    navbar.classList.toggle('open');
-}
+    navhamburger.addEventListener('click',()=>{
+        navHide.classList.toggle('mobile-menu')
+    })
