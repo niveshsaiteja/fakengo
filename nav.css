@@ -133,6 +133,14 @@ ul{
     position: relative;
     
 }
+.underline{
+    background-color: #ea1538;
+    width: 60px;
+    padding: 1px;
+    margin-top: -24px;
+    margin-bottom: 35px;
+    
+}
 /*.footer-col h4::before{
     content: '';
     position: absolute;
