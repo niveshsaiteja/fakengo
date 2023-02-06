@@ -101,6 +101,7 @@ nav ul li {
     right: 50px;
     width: 75px;
 }
+/* footer code*/
 
 .footer{
     background-color: #24262d;
@@ -231,6 +232,7 @@ transition: all 0.3s ease;
 
 
     }
+    /*footer*/
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
