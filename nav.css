@@ -133,8 +133,8 @@ ul{
     position: relative;
     
 }
-.footer-col h4::before{
-    content: '';
+/*.footer-col h4::before{
+    /*content: '';
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -142,7 +142,7 @@ ul{
     height: 2px;
     box-sizing: border-box;
     width: 50px;
-}
+}*/
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
