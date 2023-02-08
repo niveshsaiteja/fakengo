@@ -17,13 +17,19 @@ body{
 
 }
 .grid{
-    display: grid;
+    display: flex;
     width: 114em;
     grid-gap: 6rem;
     grid-template-columns: repeat(autofit,minmax(30rem,1fr));
     align-items: start;
     
 
+}
+@media only screen and (max-width: 550px){
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
 }
 .grid-item{
     background-color: #fff;
@@ -51,7 +57,6 @@ body{
     padding: 3rem;
 }
 
-}
 .card-header{
     font-size: 3 rem;
     font-weight: 500;
